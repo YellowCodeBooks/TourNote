@@ -11,7 +11,11 @@
     tools:context="com.yellowcode.tournote.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Bạn chưa có ghi chú nào cho mình, hãy tạo mới khi chú cho mình từ hôm nay"
+        android:textSize="15sp"/>
+
 </RelativeLayout>
