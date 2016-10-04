@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="Bạn chưa có ghi chú nào cho mình, hãy tạo mới khi chú cho mình từ hôm nay"
+        android:text="@string/empty_note"
         android:textSize="15sp"/>
 
 </RelativeLayout>
