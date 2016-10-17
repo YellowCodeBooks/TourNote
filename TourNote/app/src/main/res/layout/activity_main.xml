@@ -11,11 +11,22 @@
     tools:context="com.yellowcode.tournote.MainActivity">
 
     <TextView
+        android:id="@+id/activity_main_tv_empty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="4dp"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="@string/empty_note"
         android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_main_tv_empty"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/empty_note"/>
 
 </RelativeLayout>
