@@ -14,7 +14,7 @@
         android:id="@+id/activity_main_tv_empty"
         style="@style/InformationTextView"
         android:layout_centerInParent="true"
-        android:text="@string/empty_note" />
+        android:text="@string/mainscreen_empty_note" />
 
     <ImageView
         android:layout_width="60dp"
