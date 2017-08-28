@@ -16,6 +16,8 @@
     <string name="mainscreen_add_note">Add Note</string>
     <string name="mainscreen_edit_note">Edit Note</string>
     <string name="mainscreen_empty_note">Your note list is empty, let start to create your first note now</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!-- Note detail screen -->
     <string name="note_detail_share">Share</string>
