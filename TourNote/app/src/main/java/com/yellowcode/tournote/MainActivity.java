@@ -1,5 +1,6 @@
 package com.yellowcode.tournote;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -58,10 +59,12 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Search button selected", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.about:
-                Toast.makeText(this, "About button selected", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, ContactActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.help:
-                Toast.makeText(this, "Help button selected", Toast.LENGTH_SHORT).show();
+                intent = new Intent(this, ContactActivity.class);
+                startActivity(intent);
                 return true;
         }
 
