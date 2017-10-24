@@ -60,10 +60,16 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.about:
                 Intent intent = new Intent(this, ContactActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString(ContactActivity.KEY_SHOW_WHAT, ContactActivity.VALUE_SHOW_ABOUT);
+                intent.putExtras(bundle);
                 startActivity(intent);
                 return true;
             case R.id.help:
                 intent = new Intent(this, ContactActivity.class);
+                bundle = new Bundle();
+                bundle.putString(ContactActivity.KEY_SHOW_WHAT, ContactActivity.VALUE_SHOW_HELP);
+                intent.putExtras(bundle);
                 startActivity(intent);
                 return true;
         }
