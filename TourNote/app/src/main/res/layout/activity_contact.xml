@@ -4,6 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yellowcode.tournote.ContactActivity">
+    tools:context="com.yellowcode.tournote.activities.ContactActivity">
+
+    <FrameLayout
+        android:id="@+id/contactMainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

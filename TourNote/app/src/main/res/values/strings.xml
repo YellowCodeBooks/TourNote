@@ -30,4 +30,7 @@
     <string name="note_detail_note_detail_hint">Description</string>
     <string name="note_detail_add_note_hint">Your Note (Can Add Later)</string>
     <string name="note_detail_address_hint">Address</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

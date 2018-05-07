@@ -1,4 +1,4 @@
-package com.yellowcode.tournote;
+package com.yellowcode.tournote.activities;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.yellowcode.tournote.R;
 
 public class MainActivity extends AppCompatActivity {
 
